@@ -10,62 +10,81 @@ import { FaClipboardCheck } from "react-icons/fa"; // Icon for job placement
 
 const WebifyAcademy = () => {
   // Array of feature objects representing institute benefits
-  const features = [
-    {
-      title: "Structured Learning Environment",
-      description: "Friends Goal IT Institute provides a well-organized curriculum, ensuring students learn progressively from foundational concepts to advanced freelancing techniques.",
-      subDescription: "Flexible Learning: Both online and offline classes to suit your schedule.",
-      icon: <GiGraduateCap />,
-    },
-    {
-      title: "Practical, Real-World Insights",
-      description: "Courses often include case studies, real-world examples, and live projects that teach students how to navigate the freelancing marketplace effectively.",
-      subDescription: "Direct guidance on platforms like Upwork, Fiverr, and Freelancer can be invaluable.",
-      icon: <TbBriefcase2Filled />,
-    },
-    {
-      title: "Expert Mentorship",
-      description: "Learning from experienced instructors can help students gain insider tips and tricks for building a strong portfolio, crafting winning proposals, and dealing with clients professionally.",
-      subDescription: "Personal mentorship ensures tailored guidance and feedback.",
-      icon: <FaUserTie />,
-    },
-    {
-      title: "Networking Opportunities",
-      description: "Our Institute connects students with a community of like-minded individuals, fostering collaboration and support among peers.",
-      subDescription: "Networking with successful alumni can also open doors to partnerships or mentorship.",
-      icon: <GrGroup />,
-    },
-    {
-      title: "Access To Tools And Resources",
-      description: "Friends Goal IT Institute often provides access to premium tools, templates, and software that can be expensive for individuals to acquire on their own.",
-      subDescription: "Learning how to use freelancing-related tools professionally can save time and improve efficiency.",
-      icon: <FaTools />,
-    },
-    {
-      title: "Focus On Local And Global Markets",
-      description: "Your courses may specifically address freelancing challenges and opportunities in local and international markets, giving students a broader perspective.",
-      subDescription: "This provides insight into global markets and freelancing trends.",
-      icon: <GiWorld />,
-    },
-    {
-      title: "Accountability And Certification",
-      description: "A structured program ensures accountability, motivating students to complete the course on time.",
-      subDescription: "Certifications provided upon completion can enhance credibility in the freelancing world.",
-      icon: <GrCertificate />,
-    },
-    {
-      title: "Customized Freelancing Strategies",
-      description: "Guidance on building a strong personal brand, identifying niches, and setting competitive rates tailored to the learner’s skills and goals.",
-      subDescription: "These strategies help students succeed in freelancing.",
-      icon: <MdOutlineStarRate />,
-    },
-    {
-      title: "Job Placement And Freelance Opportunities",
-      description: "Some institutes offer support in landing the first freelance job, helping students gain the initial momentum they need to grow their careers.",
-      subDescription: "Job placement assistance ensures students have a smoother transition to freelancing.",
-      icon: <FaClipboardCheck />,
-    },
-  ];
+const features = [
+  {
+    title: "Structured & Career-Focused Learning",
+    description:
+      "Webify Academy follows a carefully designed learning path that helps students build strong foundations and gradually advance toward professional-level IT skills.",
+    subDescription:
+      "Flexible learning options including online classes, live sessions, and recorded resources.",
+    icon: <GiGraduateCap />,
+  },
+  {
+    title: "Industry-Oriented Practical Experience",
+    description:
+      "Our courses emphasize hands-on learning through real-world projects, case studies, and practical assignments aligned with current industry demands.",
+    subDescription:
+      "Students gain experience working on real scenarios used in professional environments.",
+    icon: <TbBriefcase2Filled />,
+  },
+  {
+    title: "Expert Guidance & Mentorship",
+    description:
+      "Learn directly from experienced industry professionals who provide valuable insights, career advice, and continuous guidance throughout your learning journey.",
+    subDescription:
+      "Personalized mentorship ensures focused growth and confidence building.",
+    icon: <FaUserTie />,
+  },
+  {
+    title: "Strong Learning Community & Networking",
+    description:
+      "Webify Academy fosters a collaborative environment where learners connect, share knowledge, and grow together as a professional community.",
+    subDescription:
+      "Engage with peers, mentors, and alumni to expand your professional network.",
+    icon: <GrGroup />,
+  },
+  {
+    title: "Access to Modern Tools & Resources",
+    description:
+      "Students receive access to essential tools, learning materials, and industry-standard software to enhance productivity and skill development.",
+    subDescription:
+      "Learn how to use modern tools effectively in real-world projects.",
+    icon: <FaTools />,
+  },
+  {
+    title: "Global Career & Market Readiness",
+    description:
+      "Our curriculum prepares students for both local and international job markets, focusing on global standards and remote work opportunities.",
+    subDescription:
+      "Understand global trends, workflows, and professional expectations.",
+    icon: <GiWorld />,
+  },
+  {
+    title: "Performance Tracking & Certification",
+    description:
+      "Structured assessments and progress tracking keep students accountable and motivated throughout their learning journey.",
+    subDescription:
+      "Earn recognized certificates to strengthen your professional profile.",
+    icon: <GrCertificate />,
+  },
+  {
+    title: "Personal Brand & Career Strategy",
+    description:
+      "We guide students in building a strong professional identity, improving portfolios, and developing career strategies aligned with their goals.",
+    subDescription:
+      "Stand out in the competitive IT and freelancing market.",
+    icon: <MdOutlineStarRate />,
+  },
+  {
+    title: "Career Support & Job Opportunities",
+    description:
+      "Webify Academy provides career support, guidance, and opportunities to help students transition confidently into jobs or freelance careers.",
+    subDescription:
+      "Get assistance with job preparation, interviews, and real opportunities.",
+    icon: <FaClipboardCheck />,
+  },
+];
+
 
   return (
     // Section wrapper with vertical spacing
