@@ -11,7 +11,7 @@ export default function layout({
     return (
         <>
         <Navbar />
-        <main>{children}</main>
+        <main className='mt-28'>{children}</main>
         </>
     )
 }
