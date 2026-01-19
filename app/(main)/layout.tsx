@@ -1,5 +1,6 @@
 import Navbar from '@/app/components/Navbar';
 import React from 'react'
+import Footer from '../components/Footer';
 
 export default function layout({
     children,
@@ -12,6 +13,7 @@ export default function layout({
         <>
         <Navbar />
         <main className='mt-28'>{children}</main>
+        <Footer />
         </>
     )
 }
