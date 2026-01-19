@@ -7,16 +7,15 @@ const HomeHero = () => {
       <div className="lg:p-20 md:p-10 p-6 flex flex-col-reverse lg:flex-row justify-between items-center gap-8 lg:gap-12">
         {/* Text Section */}
         <div className="lg:w-1/2 w-full text-center lg:text-left space-y-4 md:space-y-6">
-          <h1 className="text-white font-jost text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight">
-            Become An IT Pro & Rule The
-            <span className="text-[#22C55E] font-extrabold"> Digital World</span>
+          <h1 className="text-white font-jost text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.2]">
+            Become an IT Expert and Shape the 
+            <span className="text-[#22C55E] font-extrabold"> Digital Future</span>
           </h1>
 
           <p className="text-gray-100 text-sm sm:text-base md:text-lg leading-relaxed font-roboto italic max-w-2xl mx-auto lg:mx-0">
-            Explore a wide range of courses designed to help you excel
-            in your career and personal growth. Learn from industry experts,
-            gain hands-on experience, and achieve your goals with our comprehensive
-            learning platform.
+            Discover career-oriented courses crafted to help you master in-demand IT skills.
+             Learn from industry professionals, work on practical projects, and turn your 
+             ambitions into achievements with Webify Academy.
           </p>
 
           <div className="pt-2">

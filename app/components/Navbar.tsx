@@ -28,8 +28,8 @@ const Navbar = () => {
         <div
           dangerouslySetInnerHTML={{
             __html: `<marquee behavior="scroll" direction="left" scrollamount="5">
-        <strong>Become a Digital Success Story with Friends Goal IT Institute </strong>
-        Unlock your full potential in the world of freelancing and IT with expert-led courses, real-world projects, and personalized mentorship. From mastering the latest digital skills to building a strong professional brand, Friends Goal IT Institute equips you with the tools, guidance, and confidence to thrive in both local and global markets.
+        <strong>Build Your Digital Success with Webify Academy </strong>
+Unlock your potential with industry-focused IT courses, hands-on projects, and expert mentorship. From mastering in-demand digital skills to building a strong professional career, Webify Academy empowers you to succeed in both local and global markets.
       </marquee>`,
           }}
         ></div>
