@@ -1,9 +1,9 @@
 'use client';
 import React, { useEffect } from "react";
-import { Phone, Mail, MapPin,} from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Youtube,} from "lucide-react";
 // import { NavLink } from "react-router";
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+// import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 type ContactInfo = {
   title: string;
@@ -50,10 +50,10 @@ const Footer: React.FC = () => {
     {
       title: "Follow Us",
       items: [
-        { icon: <FaFacebook size={18} />, url: "#", name: "Facebook" },
-        { icon: <FaTwitter size={18} />, url: "#", name: "Twitter" },
-        { icon: <FaInstagram size={18} />, url: "#", name: "Instagram" },
-        { icon: <FaYoutube size={18} />, url: "#", name: "YouTube" },
+        { icon: <Facebook size={18} />, url: "#", name: "Facebook" },
+        { icon: <Twitter size={18} />, url: "#", name: "Twitter" },
+        { icon: <Instagram size={18} />, url: "#", name: "Instagram" },
+        { icon: <Youtube size={18} />, url: "#", name: "YouTube" },
       ],
     },
   ];
