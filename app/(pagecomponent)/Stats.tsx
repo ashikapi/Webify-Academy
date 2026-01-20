@@ -313,20 +313,20 @@ const Stats: React.FC = () => {
               }}
             >
               {/* Card */}
-              <div className="relative bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border-2 border-blue-100 hover:border-purple-300 overflow-hidden group-hover:-translate-y-2">
+              <div className="relative bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border-2 border-emerald-100 hover:border-emerald-300 overflow-hidden group-hover:-translate-y-2">
                 {/* Hover gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-purple-500/0 group-hover:from-blue-500/5 group-hover:to-purple-500/5 transition-all duration-500 rounded-3xl"></div>
 
                 {/* Animated corner accents */}
-                <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-bl-full transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
-                <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-purple-400/20 to-indigo-400/20 rounded-tr-full transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
+                <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-[#0EA5A4]/20 to-[#22C55E]/20 rounded-bl-full transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
+                <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-[#22C55E]/20 to-[#F97316]/20 rounded-tr-full transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
 
                 {/* Content */}
                 <div className="relative flex flex-col items-center gap-4">
                   {/* Icon container with animation */}
                   <div className="relative">
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-400 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-500"></div>
-                    <div className="relative text-6xl md:text-7xl p-6 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-500 text-white shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500">
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#0EA5A4] to-[#22C55E] rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-500"></div>
+                    <div className="relative text-6xl md:text-7xl p-6 rounded-2xl bg-gradient-to-br from-[#0EA5A4] to-[#22C55E] text-white shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500">
                       {s.icon}
                     </div>
                   </div>
@@ -334,14 +334,14 @@ const Stats: React.FC = () => {
                   {/* Number and Title */}
                   <div className="text-center">
                     <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-1">
-                      <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+                      <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#0EA5A4] to-[#22C55E]">
                         {counts[i].toLocaleString()}+
                       </span>
                       <span className="ml-2 text-gray-900">{s.title}</span>
                     </h3>
 
                     {/* Decorative line */}
-                    <div className="w-16 h-1 mx-auto my-3 rounded-full bg-gradient-to-r from-blue-400 to-purple-400 group-hover:w-24 transition-all duration-500"></div>
+                    <div className="w-16 h-1 mx-auto my-3 rounded-full bg-gradient-to-r from-[#0EA5A4] via-[#F97316] to-[#22C55E] group-hover:w-24 transition-all duration-500"></div>
 
                     {/* Subtitle */}
                     <p className="text-sm md:text-base tracking-widest uppercase text-gray-600 font-medium">
@@ -351,16 +351,16 @@ const Stats: React.FC = () => {
 
                   {/* Floating particles effect */}
                   <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full pointer-events-none">
-                    <div className="absolute top-0 left-0 w-2 h-2 bg-blue-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping"></div>
-                    <div className="absolute top-0 right-0 w-2 h-2 bg-purple-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping" style={{ animationDelay: '0.2s' }}></div>
-                    <div className="absolute bottom-0 left-0 w-2 h-2 bg-indigo-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping" style={{ animationDelay: '0.4s' }}></div>
-                    <div className="absolute bottom-0 right-0 w-2 h-2 bg-blue-400 rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping" style={{ animationDelay: '0.6s' }}></div>
+                    <div className="absolute top-0 left-0 w-2 h-2 bg-[#0EA5A4] rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping"></div>
+                    <div className="absolute top-0 right-0 w-2 h-2 bg-[#22C55E] rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping" style={{ animationDelay: '0.2s' }}></div>
+                    <div className="absolute bottom-0 left-0 w-2 h-2 bg-[#F97316] rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping" style={{ animationDelay: '0.4s' }}></div>
+                    <div className="absolute bottom-0 right-0 w-2 h-2 bg-[#0EA5A4] rounded-full opacity-0 group-hover:opacity-100 group-hover:animate-ping" style={{ animationDelay: '0.6s' }}></div>
                   </div>
                 </div>
               </div>
 
               {/* Bottom glow effect */}
-              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-3/4 h-4 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
+              <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-3/4 h-4 bg-gradient-to-r from-[#0EA5A4] via-[#F97316] to-[#22C55E] rounded-full blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-500"></div>
             </div>
           ))}
         </div>
