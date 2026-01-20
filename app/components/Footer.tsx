@@ -205,7 +205,7 @@ const Footer: React.FC = () => {
                 <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
                   Webify Academy
                 </span>
-                . All rights reserved.
+                . All rights reserved. | <span className="underline font-bold italic bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">Developed by Ashik Api.</span>
               </p>
             </div>
 
