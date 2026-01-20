@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   description: "Learn to build modern web applications with hands-on tutorials and projects.",
    icons: {
     icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    // shortcut: "/favicon.png",
+    // apple: "/favicon.png",
   }
 };
 

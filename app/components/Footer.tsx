@@ -1,9 +1,7 @@
 'use client';
 import React, { useEffect } from "react";
 import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Youtube,} from "lucide-react";
-// import { NavLink } from "react-router";
 import Link from "next/link";
-// import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 type ContactInfo = {
   title: string;
@@ -62,14 +60,14 @@ const Footer: React.FC = () => {
     <div className="relative lg:py-16 md:py-12 py-10 lg:px-16 md:px-10 px-6 mt-20 overflow-hidden" style={{ backgroundColor: 'rgb(239,245,255)' }}>
       {/* Animated background patterns */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
-        <div className="absolute top-1/2 right-1/4 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-indigo-300 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{ animationDelay: '4s' }}></div>
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#22C55E] rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
+        <div className="absolute top-1/2 right-1/4 w-96 h-96 bg-[#0EA5A4] rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-[#F97316] rounded-full mix-blend-multiply filter blur-3xl animate-pulse" style={{ animationDelay: '4s' }}></div>
       </div>
 
       {/* Decorative grid lines */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(100,100,200,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(100,100,200,0.3) 1px, transparent 1px)', backgroundSize: '50px 50px' }}></div>
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgbargba(14,165,164,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(100,100,200,0.3) 1px, transparent 1px)', backgroundSize: '50px 50px' }}></div>
       </div>
 
       {/* Content */}
@@ -92,10 +90,10 @@ const Footer: React.FC = () => {
           {contactInfo.map((info, index) => (
             <div
               key={index}
-              className="group relative backdrop-blur-xl bg-white/80 p-8 rounded-3xl border border-blue-200 transition-all duration-500 hover:bg-white hover:border-purple-400 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-2"
+              className="group relative backdrop-blur-xl bg-white/80 p-8 rounded-3xl border border-[#0EA5A4]/80 transition-all duration-500 hover:bg-white hover:border-[#22C55E]/80 hover:shadow-2xl hover:shadow-[#22C55E]/20 hover:-translate-y-2"
             >
               {/* Gradient overlay on hover */}
-              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-purple-500/0 to-blue-500/0 group-hover:from-purple-500/5 group-hover:to-blue-500/5 transition-all duration-500"></div>
+              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-purple-500/0 to-blue-500/0 group-hover:from-[#22C55E]/5 group-hover:to-[#22C55E]/5 transition-all duration-500"></div>
               
               {/* Animated corner accents */}
               <div className="absolute top-0 left-0 w-20 h-20 border-t-2 border-l-2 border-blue-400/0 group-hover:border-blue-400/50 rounded-tl-3xl transition-all duration-500"></div>
@@ -113,7 +111,7 @@ const Footer: React.FC = () => {
               {info.details && (
                 <ul className="relative space-y-4">
                   <li className="group/item flex items-start gap-4">
-                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-[#0EA5A4] to-[#069393] shadow-lg shadow-blue-400/30 group-hover/item:shadow-blue-400/50 group-hover/item:scale-110 transition-all duration-300">
+                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-[#0EA5A4] to-[#069393] shadow-lg shadow-[#0EA5A4]/30 group-hover/item:shadow-[#0EA5A4]/50 group-hover/item:scale-110 transition-all duration-300">
                       <MapPin size={18} className="text-white" />
                       <div className="absolute inset-0 rounded-xl bg-white/20 opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
                     </div>
@@ -122,7 +120,7 @@ const Footer: React.FC = () => {
                     </div>
                   </li>
                   <li className="group/item flex items-center gap-4">
-                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-[#22C55E] to-[#0d913d] shadow-lg shadow-purple-400/30 group-hover/item:shadow-purple-400/50 group-hover/item:scale-110 transition-all duration-300">
+                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-[#22C55E] to-[#0d913d] shadow-lg shadow-[#22C55E]/30 group-hover/item:shadow-[#22C55E]/50 group-hover/item:scale-110 transition-all duration-300">
                       <Phone size={18} className="text-white" />
                       <div className="absolute inset-0 rounded-xl bg-white/20 opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
                     </div>
@@ -137,7 +135,7 @@ const Footer: React.FC = () => {
                     
                   </li>
                   <li className="group/item flex items-center gap-4">
-                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-[#F97316] to-[#c95e12] shadow-lg shadow-indigo-400/30 group-hover/item:shadow-indigo-400/50 group-hover/item:scale-110 transition-all duration-300">
+                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-[#F97316] to-[#c95e12] shadow-lg shadow-[#F97316]/30 group-hover/item:shadow-[#F97316]/50 group-hover/item:scale-110 transition-all duration-300">
                       <Mail size={18} className="text-white" />
                       <div className="absolute inset-0 rounded-xl bg-white/20 opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
                     </div>
@@ -197,7 +195,7 @@ const Footer: React.FC = () => {
         <div className="pt-8 border-t border-gray-300">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-sm">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#0EA5A4] via-[#22C55E] to-[#F97316] flex items-center justify-center font-bold text-white shadow-lg shadow-blue-400/50">
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#0EA5A4] via-[#22C55E] to-[#F97316] flex items-center justify-center font-bold text-white shadow-lg shadow-[#22C55E]/50">
                 WA
               </div>
               <p className="text-gray-700">
@@ -210,9 +208,9 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="flex gap-6 text-gray-700">
-              <a href="#" className="hover:text-blue-600 transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-blue-600 transition-colors">Terms of Service</a>
-              <a href="#" className="hover:text-blue-600 transition-colors">Cookie Policy</a>
+              <a href="#" className="hover:text-[#0EA5A4] transition-colors">Privacy Policy</a>
+              <a href="#" className="hover:text-[#0EA5A4] transition-colors">Terms of Service</a>
+              <a href="#" className="hover:text-[#0EA5A4] transition-colors">Cookie Policy</a>
             </div>
 
             <div className="flex gap-2 items-center">
