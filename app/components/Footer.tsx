@@ -93,11 +93,11 @@ const Footer: React.FC = () => {
               className="group relative backdrop-blur-xl bg-white/80 p-8 rounded-3xl border border-[#0EA5A4]/80 transition-all duration-500 hover:bg-white hover:border-[#22C55E]/80 hover:shadow-2xl hover:shadow-[#22C55E]/20 hover:-translate-y-2"
             >
               {/* Gradient overlay on hover */}
-              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-purple-500/0 to-blue-500/0 group-hover:from-[#22C55E]/5 group-hover:to-[#22C55E]/5 transition-all duration-500"></div>
+              <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#0EA5A4]/0 to-[#22C55E]/0 group-hover:from-[#0EA5A4]/5 group-hover:to-[#22C55E]/5 transition-all duration-500"></div>
               
               {/* Animated corner accents */}
-              <div className="absolute top-0 left-0 w-20 h-20 border-t-2 border-l-2 border-blue-400/0 group-hover:border-blue-400/50 rounded-tl-3xl transition-all duration-500"></div>
-              <div className="absolute bottom-0 right-0 w-20 h-20 border-b-2 border-r-2 border-purple-400/0 group-hover:border-purple-400/50 rounded-br-3xl transition-all duration-500"></div>
+              <div className="absolute top-0 left-0 w-20 h-20 border-t-2 border-l-2 border-[#22C55E]/0 group-hover:border-[#22C55E]/50 rounded-tl-3xl transition-all duration-500"></div>
+              <div className="absolute bottom-0 right-0 w-20 h-20 border-b-2 border-r-2 border-[#22C55E]/0 group-hover:border-[#22C55E]/50 rounded-br-3xl transition-all duration-500"></div>
 
               {/* Section title with icon */}
               <div className="relative flex items-center gap-3 mb-6">
