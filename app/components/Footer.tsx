@@ -78,10 +78,10 @@ const Footer: React.FC = () => {
         <div className="text-center mb-12">
           <div className="inline-block mb-4">
             <div className="relative">
-              <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 pb-2">
+              <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#0EA5A4] via-[#F97316] to-[#22C55E] bg-clip-text text-transparent pb-2">
                 Let's Connect
               </h1>
-              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 rounded-full blur-sm"></div>
+              <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-[#0EA5A4] via-[#F97316] to-[#22C55E] rounded-full blur-xs"></div>
             </div>
           </div>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">We'd love to hear from you. Reach out and let's start a conversation.</p>
@@ -103,7 +103,7 @@ const Footer: React.FC = () => {
 
               {/* Section title with icon */}
               <div className="relative flex items-center gap-3 mb-6">
-                <div className="w-2 h-8 rounded-full bg-gradient-to-b from-blue-500 to-purple-500 shadow-lg shadow-blue-400/50"></div>
+                <div className="w-2 h-8 rounded-full bg-gradient-to-b from-[#0EA5A4] via-[#22C55E] to-[#F97316] shadow-lg shadow-blue-400/50"></div>
                 <h2 className="text-2xl font-bold text-gray-900">
                   {info.title}
                 </h2>
@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
               {info.details && (
                 <ul className="relative space-y-4">
                   <li className="group/item flex items-start gap-4">
-                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-blue-400 to-blue-500 shadow-lg shadow-blue-400/30 group-hover/item:shadow-blue-400/50 group-hover/item:scale-110 transition-all duration-300">
+                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-[#0EA5A4] to-[#069393] shadow-lg shadow-blue-400/30 group-hover/item:shadow-blue-400/50 group-hover/item:scale-110 transition-all duration-300">
                       <MapPin size={18} className="text-white" />
                       <div className="absolute inset-0 rounded-xl bg-white/20 opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
                     </div>
@@ -122,28 +122,28 @@ const Footer: React.FC = () => {
                     </div>
                   </li>
                   <li className="group/item flex items-center gap-4">
-                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-purple-400 to-purple-500 shadow-lg shadow-purple-400/30 group-hover/item:shadow-purple-400/50 group-hover/item:scale-110 transition-all duration-300">
+                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-[#22C55E] to-[#0d913d] shadow-lg shadow-purple-400/30 group-hover/item:shadow-purple-400/50 group-hover/item:scale-110 transition-all duration-300">
                       <Phone size={18} className="text-white" />
                       <div className="absolute inset-0 rounded-xl bg-white/20 opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
                     </div>
                     <div>
-                      <a href={`tel:${info.details.mobile1}`} className="text-gray-800 hover:text-blue-600 transition-colors cursor-pointer">
+                      <a href={`tel:${info.details.mobile1}`} className="text-gray-800 hover:text-[#0EA5A4] transition-colors cursor-pointer">
                       {info.details.mobile1}
                     </a> <br />
-                      <a href={`tel:${info.details.mobile2}`} className="text-gray-800 hover:text-blue-600 transition-colors cursor-pointer">
+                      <a href={`tel:${info.details.mobile2}`} className="text-gray-800 hover:text-[#0EA5A4] transition-colors cursor-pointer">
                       {info.details.mobile2}
                     </a>
                     </div>
                     
                   </li>
                   <li className="group/item flex items-center gap-4">
-                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-indigo-400 to-indigo-500 shadow-lg shadow-indigo-400/30 group-hover/item:shadow-indigo-400/50 group-hover/item:scale-110 transition-all duration-300">
+                    <div className="relative p-3 rounded-xl bg-gradient-to-br from-[#F97316] to-[#c95e12] shadow-lg shadow-indigo-400/30 group-hover/item:shadow-indigo-400/50 group-hover/item:scale-110 transition-all duration-300">
                       <Mail size={18} className="text-white" />
                       <div className="absolute inset-0 rounded-xl bg-white/20 opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
                     </div>
                     <a
                       href={`mailto:${info.details.email}`}
-                      className="text-gray-800 hover:text-blue-600 transition-colors duration-200"
+                      className="text-gray-800 hover:text-[#0EA5A4] transition-colors duration-200"
                     >
                       {info.details.email}
                     </a>
@@ -158,9 +158,9 @@ const Footer: React.FC = () => {
                     <li key={i} className="group/link">
                       <Link
                         href={item.url}
-                        className="flex items-center gap-3 text-gray-800 hover:text-blue-600 transition-all duration-300 group-hover/link:translate-x-2 group-hover/link:gap-4"
+                        className="flex items-center gap-3 text-gray-800 hover:text-[#22C55E] transition-all duration-300 group-hover/link:translate-x-2 group-hover/link:gap-4"
                       >
-                        <div className="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 group-hover/link:w-3 group-hover/link:h-3 transition-all duration-300 shadow-lg shadow-blue-400/50"></div>
+                        <div className="w-2 h-2 rounded-full bg-gradient-to-r from-[#0EA5A4] to-[#22C55E] group-hover/link:w-3 group-hover/link:h-3 transition-all duration-300 shadow-lg shadow-blue-400/50"></div>
                         <span className="font-medium">{item.name}</span>
                       </Link>
                     </li>
@@ -180,7 +180,7 @@ const Footer: React.FC = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                           aria-label={`Follow us on ${item.name}`}
-                          className="relative group/social flex items-center justify-center w-12 h-12 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-500 text-white hover:from-blue-600 hover:to-purple-600 transition-all duration-300 shadow-lg hover:shadow-blue-400/50 hover:scale-110 hover:-rotate-6"
+                          className="relative group/social flex items-center justify-center w-12 h-12 rounded-2xl bg-gradient-to-br from-[#0EA5A4] to-[#22C55E] text-white hover:from-[#0c8686] hover:to-[#1b9d4b] transition-all duration-300 shadow-lg hover:shadow-[#0EA5A4]/50 hover:scale-110 hover:-rotate-6"
                         >
                           {item.icon}
                           <div className="absolute inset-0 rounded-2xl bg-white/20 opacity-0 group-hover/social:opacity-100 transition-opacity duration-300"></div>
@@ -197,15 +197,15 @@ const Footer: React.FC = () => {
         <div className="pt-8 border-t border-gray-300">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-sm">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center font-bold text-white shadow-lg shadow-blue-400/50">
+              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#0EA5A4] via-[#22C55E] to-[#F97316] flex items-center justify-center font-bold text-white shadow-lg shadow-blue-400/50">
                 WA
               </div>
               <p className="text-gray-700">
                 © {new Date().getFullYear()}{" "}
-                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#0EA5A4] via-[#22C55E] to-[#F97316]">
                   Webify Academy
                 </span>
-                . All rights reserved. | <span className="underline font-bold italic bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">Developed by Ashik Api.</span>
+                . All rights reserved. | <span className="underline font-bold italic bg-gradient-to-r from-[#0EA5A4] via-[#22C55E] to-[#F97316] text-transparent bg-clip-text"><a href="https://ashikapi.netlify.app/" target="_blank">Developed by Ashik Api.</a></span>
               </p>
             </div>
 
@@ -216,9 +216,9 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="flex gap-2 items-center">
-              <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse shadow-lg shadow-blue-400/50"></div>
-              <div className="w-2 h-2 rounded-full bg-purple-500 animate-pulse shadow-lg shadow-purple-400/50" style={{ animationDelay: '0.3s' }}></div>
-              <div className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse shadow-lg shadow-indigo-400/50" style={{ animationDelay: '0.6s' }}></div>
+              <div className="w-2 h-2 rounded-full bg-[#0EA5A4] animate-pulse shadow-lg shadow-[#0EA5A4]/50"></div>
+              <div className="w-2 h-2 rounded-full bg-[#F97316] animate-pulse shadow-lg shadow-[#F97316]/50" style={{ animationDelay: '0.3s' }}></div>
+              <div className="w-2 h-2 rounded-full bg-[#22C55E] animate-pulse shadow-lg shadow-[#22C55E]/50" style={{ animationDelay: '0.6s' }}></div>
             </div>
           </div>
         </div>

@@ -260,46 +260,44 @@ const Stats: React.FC = () => {
           <h1 className="lg:text-5xl md:text-2xl text-xl font-jost font-bold relative inline-block">
             Our{" "}
             <span className="relative inline-block mx-2">
-              <span className="relative z-10 bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent animate-pulse">
+              <span className="relative z-10 bg-gradient-to-r from-[#0EA5A4] via-[#22C55E] to-[#F97316] bg-clip-text text-transparent animate-pulse">
                 Achievements
               </span>
-
+              
               {/* Animated Gradient Underline */}
-              <span className="absolute -bottom-2 left-0 w-full h-1.5 bg-gradient-to-r from-transparent via-yellow-400 to-transparent opacity-80 animate-pulse"></span>
-
+              <span className="absolute -bottom-2 left-0 w-full h-1.5 bg-gradient-to-r from-[#0EA5A4] via-[#22C55E] to-[#F97316] opacity-80 animate-pulse"></span>
+              
               {/* Animated Dots Trail */}
               <span className="absolute -bottom-4 left-0 w-full flex justify-center space-x-1">
                 {[...Array(5)].map((_, i) => (
                   <span
                     key={i}
-                    className="w-1.5 h-1.5 bg-yellow-400 rounded-full animate-bounce"
-                    style={{
+                    className="w-1.5 h-1.5 bg-[#0EA5A4] rounded-full animate-bounce"
+                    style={{ 
                       animationDelay: `${i * 0.1}s`,
                       animationDuration: '1.5s'
                     }}
                   ></span>
                 ))}
               </span>
-
+  
               {/* Floating Particles */}
-              <span className="absolute -top-4 -left-2 w-2 h-2 bg-yellow-300 rounded-full animate-ping"></span>
-              <span className="absolute -top-2 -right-3 w-1.5 h-1.5 bg-orange-400 rounded-full animate-ping" style={{ animationDelay: '0.5s' }}></span>
+              <span className="absolute -top-4 -left-2 w-2 h-2 bg-[#0EA5A4] rounded-full animate-ping"></span>
+              <span className="absolute -top-2 -right-3 w-1.5 h-1.5 bg-[#22C55E] rounded-full animate-ping" style={{animationDelay: '0.5s'}}></span>
             </span>{" "}
-
+            ?
           </h1>
 
-          {/* Decorative Corner Elements */}
            {/* Decorative Corner Elements */}
           <div className="absolute md:-top-4 top-10 md:-left-4  w-8 h-8 border-t-2 border-l-2 border-[#0EA5A4] animate-pulse"></div>
           <div className="absolute md:-top-4 top-10 md:-right-4 right-0 w-8 h-8 border-t-2 border-r-2 border-[#22C55E] animate-pulse"></div>
           <div className="absolute md:-bottom-4 md:-left-4 w-8 h-8 border-b-2 border-l-2 border-[#22C55E] animate-pulse" style={{animationDelay: '0.3s'}}></div>
           <div className="absolute md:-bottom-4 md:-right-4 right-0 w-8 h-8 border-b-2 border-r-2 border-[#0EA5A4] animate-pulse" style={{animationDelay: '0.3s'}}></div>
   
-
           {/* Animated Center Accent */}
           <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1">
-            <div className="w-16 h-1 bg-gradient-to-r from-transparent via-yellow-400 to-transparent animate-pulse rounded-full"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-yellow-400 rounded-full animate-ping"></div>
+            <div className="w-16 h-1 bg-gradient-to-r from-transparent via-[#22C55E] to-transparent animate-pulse rounded-full"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-[#0eaa9a] rounded-full animate-ping"></div>
           </div>
         </div>
 

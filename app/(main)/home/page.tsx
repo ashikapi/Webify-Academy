@@ -8,7 +8,7 @@ export default function Home() {
     <>
     <HomeHero />
     <WebifyAcademy />
-    <Stats />
+    {/* <Stats /> */}
     </>
   )
 }
