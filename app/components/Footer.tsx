@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <div className="relative lg:py-16 md:py-12 py-10 lg:px-16 md:px-10 px-6 mt-20 overflow-hidden" style={{ backgroundColor: 'rgb(239,245,255)' }}>
+    <div className="relative lg:py-16 md:py-12 py-10 lg:px-16 md:px-10 px-6 overflow-hidden" style={{ backgroundColor: 'rgb(239,245,255)' }}>
       {/* Animated background patterns */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#22C55E] rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
