@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const ProjectOverview = () => {
   useEffect(() => {
-    document.title = "Project Overview - FG IT INSTITUTE";
+    document.title = "Project Overview - Webify Academy";
   }, []);
 
   return (

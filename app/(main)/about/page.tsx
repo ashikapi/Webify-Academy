@@ -5,7 +5,7 @@ import CommonMainContent from '@/app/components/CommonMainContent';
 // AboutUs page component
 const AboutUs = () => {
   useEffect(() => {
-    document.title = "About - FG IT INSTITUTE";
+    document.title = "About - Webify Academy";
   }, []);
 
   return (

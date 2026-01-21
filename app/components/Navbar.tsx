@@ -4,7 +4,6 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa6';
-// import { NavLink } from 'react-router-dom';
 import logo from '@/public/images/Webify Academy_navbar.png';
 import Image from 'next/image';
 

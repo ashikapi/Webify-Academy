@@ -20,7 +20,7 @@ type ContactInfo = {
 
 const Footer: React.FC = () => {
   useEffect(() => {
-    document.title = "Contact Us - FG IT INSTITUTE";
+    document.title = "Contact Us - Webify Academy";
   }, []);
 
   const contactInfo: ContactInfo[] = [
